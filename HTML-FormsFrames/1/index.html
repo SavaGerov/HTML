@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			table, th, td {
+              border: 1px solid black;
+              border-collapse: collapse;
+              padding-right: 10px
+            }
+			/* #p.solid {
+				border-style: solid;
+				border-color: black;
+				}; */
+			/* #p.label{
+				padding-left: 20px;
+				text-align: right;
+			} */
+		</style>
+	</head>
+	<body>
+		<table cellpading="10px" id="p.solid" >
+			<tr>
+				<td ><label id="" for=""><strong>Last Name</strong></label></td>
+				<td><input placeholder="Roshav" type="text"></td>
+			</tr>
+			<tr>
+				<td><label id="" for=""><strong>First Name</strong></label></td>
+				<td><input placeholder="Gosho" type="text"></td>
+			</tr>
+			<tr>
+				<td><strong>Address</strong></td>
+				<td><textarea name="adress" id="Address" cols="90" rows="8">17 Hristo Botev Str. floor 3, apt. 12</textarea></td>
+			</tr>
+			<tr>
+				<td><strong>City</strong></td>
+				<td><input placeholder="Kaspichan" type="text"><strong>State</strong><input type="text"></td>
+			</tr>
+				<td><strong>Zip/Postal Codes</strong></td>
+				<td><input placeholder="9325" type="text"></td>
+			<tr>
+				<td><strong>Country</strong></td>
+				<td><select name="countries" id="countries">
+					<option value="bylgaria">Bulgaria</option>
+					<option value="usa">USA</option>
+					<option value="russia">Russia</option>
+					<option value="spain">Spain</option>
+					<option value="england">England</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><strong>Phone(country code,area code, number)</strong></td>
+				<td>(+<input placeholder="359" type="text">)<input placeholder="88" type="text"> - <input placeholder="8334343" type="text"></td>
+			</tr>
+			<tr>
+				<td><strong>E-mail</strong></td>
+				<td><input placeholder="Roshav@kaspichan.org" type="text"></td>
+			</tr>
+			<tr>
+				<td><strong>Birth date</strong></td>
+				<td>Month <input placeholder="06" type="text"> Day <input placeholder="14" type="text"> Year(4 digit) <input placeholder="1980" type="text"></td>
+			</tr>
+			<tr>
+				<td><strong>Gender</strong></td>
+				<td><select name="gender" id="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><strong>Starting date</strong></td>
+				<td><input type="radio" value="Spring 2006" required="required">Spring 2006<input type="radio" value="Summer 2006" required="required">Summer 2006</td>
+			</tr>
+			<tr>
+				<td><strong>Comments/Questions</strong></td>
+				<td><textarea name="address" id="address" cols="90" rows="8">Please send me more information about the lodging.</textarea></td>
+			</tr>
+			    <td colspan="2" align="center"><input type="submit" value="Submit"><input type="submit" value="Clear This Form"></td>
+		</table>
+	</body>
+</html>
